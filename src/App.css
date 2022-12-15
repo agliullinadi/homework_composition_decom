@@ -1,0 +1,144 @@
+.App {
+  text-align: left;
+}
+
+.main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.widgets {
+  display: flex;
+  flex-flow: column;
+  height: 350px;
+  flex-wrap: wrap;
+}
+
+.widget {
+  width: 30%;
+  margin: 15px;
+}
+
+.weather {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.weather_img {
+  margin-right: 15px;
+}
+
+.weather__temp {
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+.weather__forecast {
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+}
+
+.tv_title {
+  margin: 0 10px;
+}
+
+.tv_description {
+  font-size: 14px;
+}
+
+.menu {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.menu_item {
+  margin-right: 10px;
+}
+
+.search {
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+.search_row {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.search_logo {
+  margin-left: -100px;
+  margin-right: 5px;
+}
+
+.search_input {
+  width: 100%;
+}
+
+.popular_title {
+  margin-right: 15px;
+}
+
+.news {
+  flex-flow: column;
+  display: flex;
+  align-items: flex-start;
+}
+
+.tab_item {
+  margin-right: 20px;
+}
+
+.news_list {
+  list-style: none;
+  padding: 0;
+}
+
+.list_item {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.item_img {
+  margin-left: -25px;
+  margin-right: 5px;
+}
+
+.live {
+  display: flex;
+  align-items: center;
+}
+
+.live_title {
+  margin: 0 10px;
+}
+
+.live_description {
+  font-size: 14px;
+}
+
+.currency {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.currency_item {
+  margin-right: 20px;
+}
+
+.currency_value {
+  margin: 0 5px;
+}
+
+.currency_delta {
+  font-size: 14px;
+}
